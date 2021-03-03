@@ -156,3 +156,17 @@ module.exports = {
     },
   ],
 };
+
+{
+  // ...
+  plugins: [
+    {
+      resolve: "@sentry/gatsby",
+      options: {
+        dsn: "https://85db14b69bc74065919e619b94ab0a63@o541308.ingest.sentry.io/5659996",
+        sampleRate: 0.7,
+      },
+    },
+    // ...
+  ];
+}
